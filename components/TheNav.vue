@@ -11,7 +11,7 @@
           </button>
           <div v-show="showMenu" class="nav-links-white flex flex-col">
             <ul
-              class="absolute text-center text-white text-lg mt-5 bg-black p-4 border-slate-200 border-2 w-[80%]"
+              class="absolute text-center text-white text-lg mt-5 bg-black p-4 w-[80%]"
             >
               <li class="p-2"><NuxtLink to="/">Home</NuxtLink></li>
               <li class="p-2">
@@ -48,7 +48,7 @@
       </div>
 
       <div class="flex gap-4 items-center">
-        <input type="text" name="search" id="search" placeholder="Search..." class="border-black border-2 p-1 w-1/2 invisible md:visible">
+        <input type="text" name="search" id="search" placeholder="Search..." class="border-black border-2 p-1 w-1/2 invisible md:visible rounded-md">
         <Icon name=fa6-solid:magnifying-glass class="text-2xl"/>
         <p>Login</p>
         <Icon name="fa6-solid:user-large" />
@@ -63,6 +63,9 @@ const menuToggle = () => (showMenu.value = !showMenu.value);
 </script>
 
 <style>
+  nav {
+    z-index: 20;
+  }
   nav .nav-links ul li::after{
   /* hover styling */
   content: '';
