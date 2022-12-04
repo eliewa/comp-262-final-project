@@ -1,9 +1,9 @@
 <template>
   <div>
-    <header class="font-heading bg-black text-white text-2xl p-3 text-center">
+    <header class="fixed font-heading bg-black text-white text-2xl p-3 text-center">
       <p>FREE SHIPPING WORLDWIDE</p>
     </header>
-    <nav class="flex justify-around container font-heading fixed p-4 text-lg">
+    <nav class="flex justify-around container font-heading fixed top-14 p-4 text-lg bg-white">
       <div class="flex md:justify-left gap-10 items-center">
         <div class="text-3xl">
           <button @click.prevent="menuToggle">

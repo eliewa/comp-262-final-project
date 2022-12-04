@@ -2,6 +2,9 @@
   <div>
     <TheNav />
     <TheHero />
+    <AppSection>
+      
+    </AppSection>
   </div>
 </template>
 
