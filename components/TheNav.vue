@@ -1,9 +1,9 @@
 <template>
   <div>
-    <header class="fixed font-heading bg-black text-white text-2xl p-3 text-center">
+    <header class="fixed font-heading bg-black text-white text-2xl p-3 text-center w-[100%]">
       <p>FREE SHIPPING WORLDWIDE</p>
     </header>
-    <nav class="flex justify-around container font-heading fixed top-14 p-4 text-lg bg-white">
+    <nav class="fixed flex justify-around font-heading top-14 p-4 text-lg bg-white w-[100%]">
       <div class="flex md:justify-left gap-10 items-center">
         <div class="text-3xl">
           <button @click.prevent="menuToggle">
@@ -63,9 +63,10 @@ const menuToggle = () => (showMenu.value = !showMenu.value);
 </script>
 
 <style>
-  nav {
+  nav, header {
     z-index: 20;
   }
+  
   nav .nav-links ul li::after{
   /* hover styling */
   content: '';

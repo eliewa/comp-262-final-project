@@ -2,7 +2,9 @@
   <div class="hero flex text-white flex-col justify-center items-center">
     <h1 class=" font-display text-5xl w-1/2 text-center">ALWAYS BE ORIGINAL</h1>
     <p class="font-heading text-xl pt-7">NEW ARRIVALS ARE HERE</p>
-    <NuxtLink to="products" class="mt-7 font-sans border-2 p-2">Shop Now</NuxtLink>
+    <NuxtLink to="products">
+      <TheButton btn-info="SHOP NOW"/>
+    </NuxtLink>
   </div>  
 </template>
 

@@ -1,8 +1,13 @@
 <template>
   <div>
-    <p>{{product.title}}</p>
-    <p>{{product.price}}</p>
-    <p>{{product.id}}</p>
+    <TheNav />
+    <AppSection>
+      <p>{{product.title}}</p>
+      <img :src="product.image" alt="product" class="w-1/3">
+      <p>$ {{product.price}}</p>
+      <TheButton />
+    </AppSection>
+    
   </div>
 </template>
 
