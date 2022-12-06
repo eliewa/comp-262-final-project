@@ -45,9 +45,4 @@ const { data: products } = await useFetch("https://fakestoreapi.com/products");
   min-width: 200px;
 }
 
-/* .doormat {
-  width: 100%;
-  height: 2.5rem;
-  margin-top: auto;
-} */
 </style>
