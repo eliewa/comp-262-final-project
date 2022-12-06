@@ -32,13 +32,14 @@
     },
 
     {
+      id:4,
       image: "/images/footer-hero-3.jpg",
       alt: "Image of boy",
       heading: "Our new downtown pop-up store",
       text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
     },
 
-    {
+    { id:5,
       image: "/images/footer-hero-4.jpg",
       alt: "Image of boy",
       heading: "Surf's up. Winter time surfing",
