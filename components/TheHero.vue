@@ -14,7 +14,7 @@
 
 <style>
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.377)), url(../assets/images/hero.jpg) ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.377)), url('../public/images/hero.jpg') ;
     background-position: center;
     background-size: cover;
     width: 80%;

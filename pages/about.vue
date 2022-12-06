@@ -3,7 +3,7 @@
     <TheNav />
     <section class="flex flex-col md:flex-row relative top-48 text-white w-[80%] mx-auto bg-black">
       <div>
-        <img src="../assets/images/footer-hero-2.jpg" alt="" class="h-[100%] object-cover">
+        <img src="../public/images/footer-hero-2.jpg" alt="" class="h-[100%] object-cover">
       </div>
       <div class="p-20">
         <div class="leading-9 mx-auto text-lg relative lg:top-14">

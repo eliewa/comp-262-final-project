@@ -11,9 +11,9 @@
     </AppSection>
 
     <div class="hero-footer pt-10 pb-10">
-      <img src="../assets/images/footer-hero-2.jpg" alt="" />
-      <img src="../assets/images/hero.jpg" alt="" />
-      <img src="../assets/images/footer-hero-4.jpg" alt="" />
+      <img src="/images/footer-hero-2.jpg" alt="" />
+      <img src="/images/hero.jpg" alt="" />
+      <img src="/images/footer-hero-4.jpg" alt="" />
     </div>
 
     <TheFooter />
