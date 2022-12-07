@@ -49,16 +49,17 @@
           </ul>
         </div>
       </div>
-
+  
       <div class="flex gap-4 items-center">
         <div>
           <input
             type="text"
             v-model="search"
+            id="search"
             placeholder="Search..."
-            class="border-black border-2 p-1 w-1/2 invisible md:visible rounded-md"
+            class="border-black border-2 p-1 w-1/2 rounded-md"
           />
-          <button @click.prevent="productToggle">
+          <button @click.prevent="productToggle" type="submit" id="search" class="search">
             <Icon
               name="fa6-solid:magnifying-glass"
               class="text-2xl hover:border-2 border-black ml-4"
@@ -75,14 +76,15 @@
           </div>
         </div>
 
-        <p>Login</p>
-        <Icon name="fa6-solid:user-large" />
+        <p class="hidden md:block">Login</p>
+        <Icon name="fa6-solid:user-large" class="text-xl invisible md:visible"/>
       </div>
     </nav>
   </div>
 </template>
 
 <script setup>
+
 const showMenu = ref(false);
 const menuToggle = () => (showMenu.value = !showMenu.value);
 
