@@ -31,7 +31,7 @@
           </div>
         </div>
 
-        <TheLogo />
+        <TheLogo class="hidden sm:block"/>
         <div class="nav-links">
           <ul class="hidden lg:flex gap-10">
             <li>
@@ -66,10 +66,10 @@
             />
           </button>
           <div v-show="showProduct">
-            <div class="bg-white w-56 h-96 border-2 absolute overflow-y-scroll">
+            <div class="bg-white w-64 h-96 border-2 absolute overflow-y-scroll">
               <div v-for="p in matchingProducts" :key="p.id">
                 <NuxtLink :to="link + p.id">
-                  <Product :title="p.title" :image="p.image" :price="p.price" />
+                  <Product :title="p.title" :image="p.image" :price="p.price" class="hover:underline" />
                 </NuxtLink>
               </div>
             </div>

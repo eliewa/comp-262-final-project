@@ -1,6 +1,6 @@
 <template>
   <div class="hero flex text-white flex-col justify-center items-center">
-    <h1 class=" font-display text-5xl w-1/2 text-center">ALWAYS BE ORIGINAL</h1>
+    <h1 class=" font-display sm:text-5xl w-1/2 text-center text-3xl">ALWAYS BE ORIGINAL</h1>
     <p class="font-heading text-xl pt-7">NEW ARRIVALS ARE HERE</p>
     <NuxtLink to="products">
       <TheButton btn-info="SHOP NOW"/>
