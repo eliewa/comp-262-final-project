@@ -20,7 +20,7 @@
       image: "images/footer-hero-1.jpg",
       alt: "Image of girl",
       heading: "Best street art locations in town",
-      text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
+      text: "There are unlimited street art locations around Calgary, here is a list of all the best markets around the area in 2023!....",
     },
 
     {
@@ -28,22 +28,22 @@
       image: "/images/footer-hero-2.jpg",
       alt: "Image of boy",
       heading: "5 hot trends in street fashion",
-      text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
+      text: "New trends are created everyday, why not get yourself up to date with the 5 hottest trends happening now!....",
     },
 
     {
       id:4,
       image: "/images/footer-hero-3.jpg",
       alt: "Image of boy",
-      heading: "Our new downtown pop-up store",
-      text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
+      heading: "10 Things to know when shopping",
+      text: "Read this article to find out about some tips and tricks about how to shop effectively and efficiently....",
     },
 
     { id:5,
       image: "/images/footer-hero-4.jpg",
       alt: "Image of boy",
-      heading: "Surf's up. Winter time surfing",
-      text: "Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....",
+      heading: "Goodbye Summer, Hello Winter",
+      text: "Out with the summer in with the winter, get ready to take control of this winter!....",
     },
   ]
 </script>
