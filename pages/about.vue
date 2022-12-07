@@ -9,13 +9,11 @@
         <div class="leading-9 mx-auto text-lg relative lg:top-14">
           <h1 class="font-heading text-3xl font-bold text-center pb-10">ABOUT US</h1>
           <p>
-          I'm a paragraph. Click here to add your own text and edit me. 
-          It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page. I’m a great place for you to tell a story and let your users know a little more about you.
+          This company was established on December, 5 2022. We are a company of two, that loves to build websites. We both enrolled in the Web Development program at SAIT and have been loving it ever since. Which has now brought us to creating this "Raw." website that sells many unique things. 
         </p>
         <br>
         <p>
-          This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for 
-          your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+          We both have ambitions to become better web developers and better people everyday, and we hope to make a great impact on this world by helping people out with our products and our positive attitudes! 
         </p>
         </div>
         
