@@ -5,7 +5,7 @@
     :image="section.image"
     :alt="section.alt"
     :heading="section.heading"
-
+    :text="section.text"
     v-for="section in sections" 
     :key="section.id"
     />

@@ -2,10 +2,12 @@
   <div>
     <TheNav />
     <AppSection>
-      <p>{{product.title}}</p>
-      <img :src="product.image" alt="product" class="w-1/3">
-      <p>$ {{product.price}}</p>
-      <TheButton />
+        <p class="pb-10 font-sans text-xl">{{product.title}}</p>
+        <img :src="product.image" alt="product" class="lg:w-96 w-64">
+        <p class="lg:w-[30%] w-[80%] leading-8 font-sans pt-10">{{product.description}}</p>
+        <p>$ {{product.price}}</p>
+        <TheButton class="mb-14"/>
+      
     </AppSection>
     
   </div>
