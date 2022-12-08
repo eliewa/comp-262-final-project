@@ -117,7 +117,7 @@ const { data: products } = await useFetch("https://fakestoreapi.com/products");
 const link = "/products/";
 
 const matchingProducts = computed(() => {
-  return products.value.filter((product) =>
+    return products.value.filter((product) =>
     product.title.toLowerCase().includes(search.value.toLowerCase())
   );
 });

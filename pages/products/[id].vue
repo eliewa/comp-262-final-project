@@ -9,7 +9,7 @@
         <p class="leading-8 font-sans py-10">
           {{ product.description }}
         </p>
-        <label for="quantity" class="font-sans mr-5">Quantity</label>
+        <label for="quantity" class="font-sans mr-5 font-bold">Quantity</label>
         <select name="size" id="size" class="text-xl px-4 border-2">
           <option value="">
             0
