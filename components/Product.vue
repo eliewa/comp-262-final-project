@@ -18,8 +18,8 @@
       type: String,
     },
     price: {
-      type: String,
-      default: '129.99'
+      type: Number,
+      default: 129.99,
     }
   })
 </script>

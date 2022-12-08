@@ -14,6 +14,9 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'RAW Industries | Blog'
+})
   const sections = [
     {
       id: 1,

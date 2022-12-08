@@ -24,5 +24,7 @@
 </template>
 
 <script setup>
-
+  useHead({
+  title: 'RAW Industries | About Us'
+})
 </script>

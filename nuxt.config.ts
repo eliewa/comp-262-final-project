@@ -5,6 +5,12 @@ export default {
     'nuxt-icon',
   ],
 
-  
+  app: {
+    head: {
+      title: 'RAW Industries',
+    }
+  }
   
 }
+
+

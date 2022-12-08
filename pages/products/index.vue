@@ -18,5 +18,9 @@ definePageMeta({
   layout: "products",
 });
 
+useHead({
+  title: 'RAW Industries | Products'
+})
+
 const { data: products } = await useFetch("https://fakestoreapi.com/products");
 </script>
