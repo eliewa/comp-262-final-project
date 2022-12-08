@@ -27,7 +27,7 @@
             4
           </option>
         </select>
-        <TheButton class="mb-14" />
+        <TheButton class="mb-14" btn-info="Add to Cart" />
       </div>
     </div>
 

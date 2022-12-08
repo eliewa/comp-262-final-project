@@ -8,7 +8,7 @@
   const props = defineProps({
     btnInfo: {
       type: String,
-      default: 'Add to Cart'
+      default: 'View Product'
     }
   })
 </script>
