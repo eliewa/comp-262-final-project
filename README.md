@@ -1,42 +1,30 @@
-# Nuxt 3 Minimal Starter
+# Comp-262 Team Project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Team Members: Luke Muenchrath, Eli Ewa
 
-## Setup
+## Responsibilities: 
 
-Make sure to install the dependencies:
+### Luke Muenchrath
+- Styling
+- Moodboard
+- About Us page
+- Blog Page
 
-```bash
-# yarn
-yarn install
+### Eli Ewa
+- Debugging
+- Testing
+- HomePage
+- Product Page
 
-# npm
-npm install
+### Attributions
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+https://www.pexels.com/photo/man-in-gray-pull-over-hoodie-standing-on-train-rail-634785/
 
-## Development Server
+https://www.pexels.com/photo/photo-of-woman-wearing-blue-dress-1193942/
 
-Start the development server on http://localhost:3000
+https://www.pexels.com/photo/photo-of-man-holding-camera-1484771/
 
-```bash
-npm run dev
-```
+https://www.pexels.com/photo/
+photo-of-man-wearing-gray-sweater-and-track-pants-leaning-on-wall-829552/
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+https://www.pexels.com/photo/blue-denim-collared-top-with-we-see-what-we-want-text-overlay-1176618/

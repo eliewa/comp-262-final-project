@@ -1,17 +1,16 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
+export default {
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
-    // '@nuxtjs/google-fonts'
   ],
 
-})
+  app: {
+    head: {
+      title: 'RAW Industries',
+    }
+  }
+  
+}
 
-// googleFonts: {
-//   families: {
-//     Poppins: true,
-//     Montserrat: true,
 
-//   }
-// }
